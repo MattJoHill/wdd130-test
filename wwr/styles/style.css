@@ -15,6 +15,10 @@ head {
   text-align: center;
 }
 
+#hero-msg {
+  text-align: center;
+}
+
 #background {
   height: 725px;
 }
