@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .content {
   max-width: 1600px;
   margin: 0 auto;
+}
+
+head {
+  font-family: "Poppins", sans-serif;
 }
 
 #centered {
@@ -13,6 +21,18 @@
 
 #body {
   background-color: #f9f7f3;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 #header {
@@ -23,6 +43,7 @@ nav a {
   text-align: center;
   color: #f9f7f3;
   text-decoration: none;
+  padding: 35px;
 }
 
 nav a:hover {
@@ -33,6 +54,10 @@ nav a:hover {
 .book {
   background-color: #eddea4;
   color: #0fa3b1;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover {
@@ -46,14 +71,19 @@ nav a:hover {
 
 .msg {
   background-color: #f7a072;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
   color: #0fa3b1;
+  font-family: "Acme";
 }
 
 .msg p {
   color: #f9f7f3;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 .msg footer {
@@ -62,6 +92,9 @@ nav a:hover {
 
 .home-title {
   color: #0fa3b1;
+  font-family: "Acme";
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
@@ -70,6 +103,12 @@ h4 {
 
 footer {
   color: #f7a072;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
 
 footer a {
@@ -87,6 +126,7 @@ footer a:hover {
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 #hero-img {
@@ -99,4 +139,24 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+.card-img {
+  border: 10px solid #f7a072;
+}
+
+.rivers-card {
+  margin: 200px 0;
+}
+
+.camping-card {
+  margin: 200px 0;
+}
+
+.rapids-card {
+  margin: 200px 0;
+}
+
+main section img {
+  box-sizing: border-box;
 }
