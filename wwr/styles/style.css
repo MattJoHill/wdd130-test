@@ -197,6 +197,7 @@ footer p a:hover {
 .card-img:hover {
   opacity: 0.6;
   transform: scale(1.1);
+  justify-items: center;
 }
 
 .card-img,
