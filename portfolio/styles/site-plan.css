@@ -34,6 +34,10 @@ Fonts are separated by a | */
   --nav-hover-background-color: #ded3f9;
 }
 
+.example-img {
+  width: 50%;
+}
+
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -164,6 +168,11 @@ nav a:hover {
 }
 .sm-page3 {
   grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page4 {
+  grid-area: page4;
   background-color: #ccc;
   line-height: 3em;
 }
