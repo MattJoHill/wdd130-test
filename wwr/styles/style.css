@@ -238,6 +238,68 @@ main section img {
   grid-template-columns: repeat(10, 1fr);
 }
 
+.rivers-display {
+  max-width: 90%;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 20px;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.idaho {
+  background-color: #f7a072;
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+  padding-bottom: 30px;
+}
+
+.idaho h2 {
+  color: #0fa3b1;
+  font-family: "Acme";
+}
+
+.idaho p {
+  color: #f9f7f3;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+.middle-river {
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  padding-bottom: 30px;
+}
+
+.middle-river h2 {
+  color: #f7a072;
+  font-family: "Acme";
+}
+
+.middle-river p {
+  color: #000000;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+#rivers-msg {
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 40px;
+}
+
+.description {
+  color: #000000;
+  font-size: 0.8em;
+}
+
 /* Mobile Viewing */
 
 @media screen and (max-width: 900px) {
