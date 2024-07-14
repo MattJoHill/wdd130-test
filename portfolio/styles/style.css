@@ -5,7 +5,7 @@
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #5aeadc;
+  --primary-color: #b3ddd7;
   --primary-dark: #118378;
   --secondary-color: #565656;
   --accent1-color: #ffddf4;
@@ -30,10 +30,16 @@
   --nav-hover-background-color: #ded3f9;
 }
 
-.content {
+.total {
   max-width: 1600px;
   width: 80%;
   margin: 0 auto;
+}
+
+.content {
+  max-width: 1600px;
+  width: 95%;
+  margin: 0 0 0 auto;
 }
 
 head {
@@ -44,7 +50,7 @@ header {
   color: var(--headline-color-on-white);
   font-family: var(--heading-font);
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: 3;
 }
 
 nav {
@@ -69,7 +75,7 @@ p {
 }
 
 img {
-  max-width: 60%;
+  max-width: 100%;
 }
 
 footer {
@@ -94,4 +100,151 @@ footer a {
 footer a:hover {
   background-color: #0fa3b1;
   color: #f9f7f3;
+}
+
+.spacer {
+  height: 50px; /* Adjust the height as needed */
+}
+
+.container-main {
+  /* This is the parent of the activity 6 boxes. */
+  display: grid;
+  grid-template-columns: 6.55% 24.8% 62.1% 6.55%;
+  grid-template-rows: 46.2% 7.6% 46.2%;
+  max-width: 800px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.gd-button {
+  width: 100%;
+  height: 100%;
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+
+.space {
+  width: 100%;
+  height: 100%;
+  grid-row: 2/3;
+  grid-column: 1/5;
+  background-color: white;
+}
+
+.me-button {
+  width: 100%;
+  height: 100%;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.art-button {
+  width: 100%;
+  height: 100%;
+  grid-row: 3/4;
+  grid-column: 3/5;
+}
+
+.bottom-nav {
+  padding-top: 25px;
+  height: 75px; /* Set the height of the bottom-nav */
+  max-height: 75px; /* Ensure the height does not exceed 50px */
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.bottom-nav img {
+  height: 100%; /* Make the image take up the full height of the .bottom-nav element */
+  max-height: 100%; /* Ensure the image height does not exceed the .bottom-nav element */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  font: var(--paragraph-font);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--headline-color-on-white);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.gd-showcase1-img {
+  grid-column: 1;
+}
+
+.showcase-right {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 20px;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.gd-showcase {
+  background-color: var(--primary-dark);
+  max-width: 900px;
+  line-height: 1.5em;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 0 auto;
+}
+
+.description-klint {
+  justify-content: center;
+  grid-column: 2;
+  padding-left: 15px;
+  color: var(--paragraph-color-on-color);
+}
+
+.gd-showcase2 {
+  background-color: var(--primary-color);
+  max-width: 900px;
+  line-height: 1.5em;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin: 0 auto;
+}
+
+.gd-showcase2-img {
+  grid-column: 2;
+}
+
+.description-business {
+  justify-content: center;
+  grid-column: 1;
+  padding-right: 15px;
+  color: var(--paragraph-color-on-white);
+}
+
+.gd-showcase3 {
+  background-color: var(--primary-dark);
+  max-width: 900px;
+  line-height: 1.5em;
+  padding: 35px;
+  display: grid;
+  grid-template-rows: auto;
+  margin: 0 auto;
+}
+
+.gd-showcase3-img {
+  grid-row: 1;
+}
+
+.description-conference {
+  justify-content: center;
+  grid-row: 2;
+  padding-top: 15px;
+  color: var(--paragraph-color-on-color);
 }
