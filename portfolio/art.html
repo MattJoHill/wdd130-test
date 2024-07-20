@@ -6,59 +6,81 @@
     <title>Matt Hill | Art</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body>
-    <div class="content">
+  <body class="total">
+    <div>
       <header id="header">
-        <a href="index.html" id="logo_link">
-          <img class="logo" src="img/logo.png" alt="Matt Hill Logo" />
-        </a>
+        <div class="logo">
+          <a href="index.html" id="logo_link">
+            <img src="img/main/logo-art.png" alt="Matt Hill Logo" />
+          </a>
+        </div>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="graphic-design.html">Graphic Design</a>
-          <a href="art.html">Art</a>
-          <a href="about.html">About Me</a>
+          <div class="home">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="gd">
+            <a href="graphic-design.html">Graphic Design</a>
+          </div>
+          <div class="abt">
+            <a href="about.html">About Me</a>
+          </div>
+          <div class="art">
+            <a href="art.html">Art</a>
+          </div>
         </nav>
       </header>
     </div>
     <div>
       <h2>Art</h2>
     </div>
-    <div id="showcase">
-      <img
-        src="img/Art/Painting.jpg"
-        alt="painting of a tree in front of the sun"
-      />
-      <h3>The Sun's Heat (Acryllic Painting)</h3>
-      <p>
-        This was a simple painting I made for a class project. It involved
-        creating a composition that involved 6 flat dynamic shapes, and then
-        overlaying different patterns on top of each one. I enjoyed the focal
-        point I was able to create through the use of line and contrast here.
-      </p>
-    </div>
-    <div id="showcase">
-      <img src="img/Art/SelfPortrait.jpg" alt="a self portrait (graphite)" />
-      <h3>Self Portrait (Graphite)</h3>
-      <p>
-        It's me! I'm still not overly confident in my ability to draw, but I was
-        relatively happy with how this turned out. My hair isn't exactly easy to
-        draw as it's typically pretty messy, but I enjoyed the process of
-        working through this and learning techniques that go into portraiture
-        quite a bit!
-      </p>
-    </div>
-    <div id="showcase">
-      <img src="img/Art/FruitPlate.jpg" alt="a plate of fruit" />
-      <h3>Cutting Fruit (Graphite)</h3>
-      <p>
-        This was a still life drawing where I focused on shading. I started with
-        a picture I took and examined the lighting and shadows throughout. It
-        was extremely interesting to learn how light works on this small scale
-        project. I also liked working with these organic shapes of the
-        strawberry and banana that I had cut up. (Not to mention they were
-        delicious after the camera was put away too!)
-      </p>
-    </div>
+    <section class="art-one">
+      <div class="art-one-img">
+        <img
+          src="img/Art/Painting.jpg"
+          alt="painting of a tree in front of the sun"
+        />
+      </div>
+      <div class="description-art-one">
+        <h3>The Sun's Heat (Acryllic Painting)</h3>
+        <p>
+          This was a simple painting I made for a class project. It involved
+          creating a composition that involved 6 flat dynamic shapes, and then
+          overlaying different patterns on top of each one. I enjoyed the focal
+          point I was able to create through the use of line and contrast here.
+        </p>
+      </div>
+    </section>
+    <div class="spacer"></div>
+    <section class="art-two">
+      <div class="description-art-two">
+        <h3>Self Portrait (Graphite)</h3>
+        <p>
+          It's me! I'm still not overly confident in my ability to draw, but I
+          was relatively happy with how this turned out. My hair isn't exactly
+          easy to draw as it's typically pretty messy, but I enjoyed the process
+          of working through this and learning techniques that go into
+          portraiture quite a bit!
+        </p>
+      </div>
+      <div class="art-two-img">
+        <img src="img/Art/SelfPortrait.jpg" alt="a self portrait (graphite)" />
+      </div>
+    </section>
+    <div class="spacer"></div>
+    <section class="art-three">
+      <img src="img/Art/FruitPlate.jpg" alt="Booklet" class="art-three-img" />
+      <div class="description-art-three">
+        <h3>Cutting Fruit (Graphite)</h3>
+        <p>
+          This was a still life drawing where I focused on shading. I started
+          with a picture I took and examined the lighting and shadows
+          throughout. It was extremely interesting to learn how light works on
+          this small scale project. I also liked working with these organic
+          shapes of the strawberry and banana that I had cut up. (Not to mention
+          they were delicious after the camera was put away too!)
+        </p>
+      </div>
+    </section>
     <div class="bottom-nav">
       <a href="graphic-design.html">
         <img src="img/main/graphic-design.png" alt="graphic design button" />
@@ -71,7 +93,7 @@
       </a>
     </div>
     <footer>
-      <p>Contact me?</p>
+      <p>Contact me?&nbsp;</p>
       <p>
         <a href="mailto:Matthew.Hill.J@gmail.com">Matthew.Hill.J@gmail.com</a>
       </p>
